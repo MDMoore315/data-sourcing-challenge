@@ -16,19 +16,20 @@ Module 6 Challenge files
 * Rename example.env to .env and add your API keys to the file.
 * Ensure the .env file is not listed when you perform a git status check on the repo, before performing your git add action.
 * Push these changes to GitHub or GitLab.
-> *NOTE*
-The CSV file included in the output folder in your starter files is to help you identify how your final CSV file should be structured. Do not copy this file to your own repo. You will instead upload the CSV file you create as part of the Challenge. >
+> *NOTE:* The CSV file included in the output folder in your starter files is to help you identify how your final CSV file should be structured. Do not copy this file to your own repo. You will instead upload the CSV file you create as part of the Challenge.
+
 ## Instructions
 This Challenge has three parts, and must be completed in order:
 * Part 1: Access the New York Times API.
 * Part 2: Access The Movie Database API.
 * Part 3: Merge and Clean the Data for Export.
-The starter code includes importing the required dependencies and your API keys from your .env file, but you will need to ensure your API keys are added to that file.
-Part 1: Access the New York Times API
-1. The base URL is included in the starter code, along with the search string and query dates. Consult the New York Times Article Search API documentation to help you build your query_url using these variables.
-If you accidentally delete these variables, they are:
 
-# Set the base URL
+The starter code includes importing the required dependencies and your API keys from your .env file, but you will need to ensure your API keys are added to that file.
+
+## Part 1: Access the New York Times API
+1. The base URL is included in the starter code, along with the search string and query dates. Consult the New York Times Article Search API documentation to help you build your query_url using these variables.
+> If you accidentally delete these variables, they are:
+' # Set the base URL
 url = "https://api.nytimes.com/svc/search/v2/articlesearch.json?"
 # Filter for movie reviews with "love" in the headline
 # section_name should be "Movies"
